@@ -51,6 +51,8 @@ class FundamentalType(Type):
             return "uchar"
         elif self.el.get("size") == "64":
             return "ulong"
+        else:
+            raise NotImplementedError
 
 
 class CvQualifiedType(Type):
