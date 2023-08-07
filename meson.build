@@ -1,4 +1,4 @@
-castxml = find_program('castxml')
+castxml = find_program('castxml', required: false)
 
 if castxml.found()
   pkcs11_xml = custom_target(
