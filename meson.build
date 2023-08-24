@@ -1,3 +1,5 @@
+project('pkcs11-json')
+
 castxml = find_program('castxml', required: false)
 
 if castxml.found()
@@ -24,7 +26,7 @@ else
   pkcs11_json = custom_target(
     'pkcs11.json',
     output: 'pkcs11.json',
-    input: meson.source_root() / 'pkcs11-json' / 'generated' / 'pkcs11.json',
+    input: meson.project_source_root() / 'generated' / 'pkcs11.json',
     command: [
       'cp', '@INPUT@', '@OUTPUT@',
     ],
