@@ -1,34 +1,23 @@
 project('pkcs11-json')
 
+pkcs11_json = files(meson.project_source_root() / 'generated' / 'pkcs11.json')
+
 castxml = find_program('castxml', required: false)
-
 if castxml.found()
-  pkcs11_xml = custom_target(
-    'pkcs11.xml',
-    output: 'pkcs11.xml',
-    input: pkcs11_json_input,
-    command: [
-      castxml,
-      '--castxml-output=1', '@INPUT@', '-o', '@OUTPUT@',
-    ],
-  )
-
-  pkcs11_json = custom_target(
-    'pkcs11.json',
-    output: 'pkcs11.json',
-    input: pkcs11_xml,
-    command: [
-      find_program('gen.py'),
+  pkcs11_json_gen = generator(
+    find_program('gen.py'),
+    output: '@BASENAME@.json',
+    arguments: [
       '@INPUT@', '--outfile', '@OUTPUT@',
+      '--castxml-program', castxml.path(),
     ],
   )
 else
-  pkcs11_json = custom_target(
-    'pkcs11.json',
-    output: 'pkcs11.json',
-    input: meson.project_source_root() / 'generated' / 'pkcs11.json',
-    command: [
-      'cp', '@INPUT@', '@OUTPUT@',
+  pkcs11_json_gen = generator(
+    find_program('cp'),
+    output: '@BASENAME@.json',
+    arguments: [
+      pkcs11_json, '@OUTPUT@',
     ],
   )
 endif

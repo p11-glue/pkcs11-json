@@ -8,8 +8,7 @@ representation of PKCS #11 interface for further code generation.
 ```console
 $ sudo dnf install castxml
 $ git clone --depth=1 https://github.com/p11-glue/p11-kit.git
-$ castxml --castxml-output=1 p11-kit/common/pkcs11.h
-$ python gen.py pkcs11.xml > pkcs11.json
+$ python gen.py p11-kit/common/pkcs11.h > pkcs11.json
 ```
 
 ## Integrating with build systems
@@ -20,9 +19,9 @@ In the top-level `meson.build`, set `pkcs11_json_input` to a path to
 "pkcs11.h", and include the `pkcs11-json` subdirectory.
 
 ```meson
-python = import('python').find_installation()
-pkcs11_json_input = meson.project_source_root() / 'common' / 'pkcs11.h'
-subdir('pkcs11-json')
+pkcs11_json_project = subproject('pkcs11-json')
+pkcs11_json_gen = pkcs11_json_project.get_variable('pkcs11_json_gen')
+pkcs11_json = pkcs11_json_project.get_variable('pkcs11_json')
 ```
 
 `pkcs11_json` will point to the generated JSON file.
