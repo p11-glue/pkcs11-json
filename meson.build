@@ -1,7 +1,5 @@
 project('pkcs11-json')
 
-pkcs11_json = files(meson.project_source_root() / 'generated' / 'pkcs11.json')
-
 castxml = find_program('castxml', required: false)
 if castxml.found()
   pkcs11_json_gen = generator(
@@ -17,7 +15,7 @@ else
     find_program('cp'),
     output: '@BASENAME@.json',
     arguments: [
-      pkcs11_json, '@OUTPUT@',
+      meson.project_source_root() / 'generated' / 'pkcs11.json', '@OUTPUT@',
     ],
   )
 endif
