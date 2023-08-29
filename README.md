@@ -21,7 +21,7 @@ In the top-level `meson.build`, set `pkcs11_json_input` to a path to
 ```meson
 pkcs11_json_project = subproject('pkcs11-json')
 pkcs11_json_gen = pkcs11_json_project.get_variable('pkcs11_json_gen')
-pkcs11_json = pkcs11_json_project.get_variable('pkcs11_json')
+pkcs11_json = pkcs11_json_gen.process('common/pkcs11.h')
 ```
 
 `pkcs11_json` will point to the generated JSON file.
