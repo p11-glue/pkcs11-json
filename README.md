@@ -15,8 +15,19 @@ $ python gen.py p11-kit/common/pkcs11.h > pkcs11.json
 
 ### Meson
 
-In the top-level `meson.build`, set `pkcs11_json_input` to a path to
-"pkcs11.h", and include the `pkcs11-json` subdirectory.
+In the top-level `meson.build`, check for Python:
+
+```meson
+python = import('python').find_installation()
+python_version = python.language_version()
+python_version_req = '>=3.6'
+if not python_version.version_compare(python_version_req)
+  error('Requires Python @0@, @1@ found.'.format(python_version_req, python_version))
+endif
+```
+
+Then import `pkcs11-json` as a subproject, generate JSON file through
+the `pkcs11_json_gen` generator:
 
 ```meson
 pkcs11_json_project = subproject('pkcs11-json')
@@ -24,14 +35,12 @@ pkcs11_json_gen = pkcs11_json_project.get_variable('pkcs11_json_gen')
 pkcs11_json = pkcs11_json_gen.process('common/pkcs11.h')
 ```
 
-`pkcs11_json` will point to the generated JSON file.
-
 ### Autotools
 
-In `configure.ac`, check for the `castxml` program:
+In `configure.ac`, check for Python and the `castxml` program:
 
 ```autoconf
-AM_MISSING_PROG([PYTHON], [python])
+AM_PATH_PYTHON([3.6],, [:])
 AM_MISSING_PROG([CASTXML], [castxml])
 ```
 
