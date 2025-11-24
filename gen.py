@@ -136,7 +136,7 @@ class Function(Type):
                  types: Mapping[str, Type],
                  aliases: Mapping[str, str]):
         super().__init__(el, types, aliases)
-        self.version = 2
+        self.version = (3, 2)
 
     def to_json(self) -> Mapping[str, Any]:
         obj = {}
@@ -211,23 +211,26 @@ class AST:
         for el in self.root.iter("Function"):
             functions[el.get("name")] = Function(el, types, aliases)
 
-        function_names2 = self.get_function_names(2)
-        function_names3 = self.get_function_names(3)
+        function_names2_0 = self.get_function_names((2, 0))
+        function_names3_0 = self.get_function_names((3, 0))
+        function_names3_2 = self.get_function_names((3, 2))
 
         self.functions = []
-        for name in function_names3:
+        for name in function_names3_2:
             function = functions[name]
-            if name not in function_names2:
-                function.version = 3
-            else:
-                function.version = 2
+            if name in function_names3_0:
+                function.version = (3, 0)
+            if name in function_names2_0:
+                function.version = (2, 0)
             self.functions.append(function)
 
     def get_function_names(self, version):
-        if version == 2:
+        if version == (2, 0):
             struct = self.root.find("./Struct[@name='_CK_FUNCTION_LIST']")
-        else:
+		elif version == (3, 0):
             struct = self.root.find("./Struct[@name='_CK_FUNCTION_LIST_3_0']")
+		else:
+            struct = self.root.find("./Struct[@name='_CK_FUNCTION_LIST_3_2']")
         names = []
         for member in struct.get("members").split(" ")[1:]:
             el = self.root.find(f"./Field[@id='{member}']")
