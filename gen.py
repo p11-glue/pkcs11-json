@@ -227,9 +227,9 @@ class AST:
     def get_function_names(self, version):
         if version == (2, 0):
             struct = self.root.find("./Struct[@name='_CK_FUNCTION_LIST']")
-		elif version == (3, 0):
+        elif version == (3, 0):
             struct = self.root.find("./Struct[@name='_CK_FUNCTION_LIST_3_0']")
-		else:
+        else:
             struct = self.root.find("./Struct[@name='_CK_FUNCTION_LIST_3_2']")
         names = []
         for member in struct.get("members").split(" ")[1:]:
