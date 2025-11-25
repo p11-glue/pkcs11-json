@@ -4,7 +4,10 @@
   "functions": [
     {
       "name": "C_Initialize",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -16,7 +19,10 @@
     },
     {
       "name": "C_Finalize",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -28,7 +34,10 @@
     },
     {
       "name": "C_GetInfo",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -40,7 +49,10 @@
     },
     {
       "name": "C_GetFunctionList",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -52,7 +64,10 @@
     },
     {
       "name": "C_GetSlotList",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -74,7 +89,10 @@
     },
     {
       "name": "C_GetSlotInfo",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -91,7 +109,10 @@
     },
     {
       "name": "C_GetTokenInfo",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -108,7 +129,10 @@
     },
     {
       "name": "C_GetMechanismList",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -130,7 +154,10 @@
     },
     {
       "name": "C_GetMechanismInfo",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -152,7 +179,10 @@
     },
     {
       "name": "C_InitToken",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -179,7 +209,10 @@
     },
     {
       "name": "C_InitPIN",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -201,7 +234,10 @@
     },
     {
       "name": "C_SetPIN",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -233,7 +269,10 @@
     },
     {
       "name": "C_OpenSession",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -265,7 +304,10 @@
     },
     {
       "name": "C_CloseSession",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -277,7 +319,10 @@
     },
     {
       "name": "C_CloseAllSessions",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -289,7 +334,10 @@
     },
     {
       "name": "C_GetSessionInfo",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -306,7 +354,10 @@
     },
     {
       "name": "C_GetOperationState",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -328,7 +379,10 @@
     },
     {
       "name": "C_SetOperationState",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -360,7 +414,10 @@
     },
     {
       "name": "C_Login",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -387,7 +444,10 @@
     },
     {
       "name": "C_Logout",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -399,7 +459,10 @@
     },
     {
       "name": "C_CreateObject",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -426,7 +489,10 @@
     },
     {
       "name": "C_CopyObject",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -458,7 +524,10 @@
     },
     {
       "name": "C_DestroyObject",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -475,7 +544,10 @@
     },
     {
       "name": "C_GetObjectSize",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -497,7 +569,10 @@
     },
     {
       "name": "C_GetAttributeValue",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -524,7 +599,10 @@
     },
     {
       "name": "C_SetAttributeValue",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -551,7 +629,10 @@
     },
     {
       "name": "C_FindObjectsInit",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -573,7 +654,10 @@
     },
     {
       "name": "C_FindObjects",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -600,7 +684,10 @@
     },
     {
       "name": "C_FindObjectsFinal",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -612,7 +699,10 @@
     },
     {
       "name": "C_EncryptInit",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -634,7 +724,10 @@
     },
     {
       "name": "C_Encrypt",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -666,7 +759,10 @@
     },
     {
       "name": "C_EncryptUpdate",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -698,7 +794,10 @@
     },
     {
       "name": "C_EncryptFinal",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -720,7 +819,10 @@
     },
     {
       "name": "C_DecryptInit",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -742,7 +844,10 @@
     },
     {
       "name": "C_Decrypt",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -774,7 +879,10 @@
     },
     {
       "name": "C_DecryptUpdate",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -806,7 +914,10 @@
     },
     {
       "name": "C_DecryptFinal",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -828,7 +939,10 @@
     },
     {
       "name": "C_DigestInit",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -845,7 +959,10 @@
     },
     {
       "name": "C_Digest",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -877,7 +994,10 @@
     },
     {
       "name": "C_DigestUpdate",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -899,7 +1019,10 @@
     },
     {
       "name": "C_DigestKey",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -916,7 +1039,10 @@
     },
     {
       "name": "C_DigestFinal",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -938,7 +1064,10 @@
     },
     {
       "name": "C_SignInit",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -960,7 +1089,10 @@
     },
     {
       "name": "C_Sign",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -992,7 +1124,10 @@
     },
     {
       "name": "C_SignUpdate",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1014,7 +1149,10 @@
     },
     {
       "name": "C_SignFinal",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1036,7 +1174,10 @@
     },
     {
       "name": "C_SignRecoverInit",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1058,7 +1199,10 @@
     },
     {
       "name": "C_SignRecover",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1090,7 +1234,10 @@
     },
     {
       "name": "C_VerifyInit",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1112,7 +1259,10 @@
     },
     {
       "name": "C_Verify",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1144,7 +1294,10 @@
     },
     {
       "name": "C_VerifyUpdate",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1166,7 +1319,10 @@
     },
     {
       "name": "C_VerifyFinal",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1188,7 +1344,10 @@
     },
     {
       "name": "C_VerifyRecoverInit",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1210,7 +1369,10 @@
     },
     {
       "name": "C_VerifyRecover",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1242,7 +1404,10 @@
     },
     {
       "name": "C_DigestEncryptUpdate",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1274,7 +1439,10 @@
     },
     {
       "name": "C_DecryptDigestUpdate",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1306,7 +1474,10 @@
     },
     {
       "name": "C_SignEncryptUpdate",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1338,7 +1509,10 @@
     },
     {
       "name": "C_DecryptVerifyUpdate",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1370,7 +1544,10 @@
     },
     {
       "name": "C_GenerateKey",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1402,7 +1579,10 @@
     },
     {
       "name": "C_GenerateKeyPair",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1449,7 +1629,10 @@
     },
     {
       "name": "C_WrapKey",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1486,7 +1669,10 @@
     },
     {
       "name": "C_UnwrapKey",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1533,7 +1719,10 @@
     },
     {
       "name": "C_DeriveKey",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1570,7 +1759,10 @@
     },
     {
       "name": "C_SeedRandom",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1592,7 +1784,10 @@
     },
     {
       "name": "C_GenerateRandom",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1614,7 +1809,10 @@
     },
     {
       "name": "C_GetFunctionStatus",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1626,7 +1824,10 @@
     },
     {
       "name": "C_CancelFunction",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1638,7 +1839,10 @@
     },
     {
       "name": "C_WaitForSlotEvent",
-      "version": 2,
+      "version": [
+        2,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1660,7 +1864,10 @@
     },
     {
       "name": "C_GetInterfaceList",
-      "version": 3,
+      "version": [
+        3,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1677,7 +1884,10 @@
     },
     {
       "name": "C_GetInterface",
-      "version": 3,
+      "version": [
+        3,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1704,7 +1914,10 @@
     },
     {
       "name": "C_LoginUser",
-      "version": 3,
+      "version": [
+        3,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1741,7 +1954,10 @@
     },
     {
       "name": "C_SessionCancel",
-      "version": 3,
+      "version": [
+        3,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1758,7 +1974,10 @@
     },
     {
       "name": "C_MessageEncryptInit",
-      "version": 3,
+      "version": [
+        3,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1780,7 +1999,10 @@
     },
     {
       "name": "C_EncryptMessage",
-      "version": 3,
+      "version": [
+        3,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1832,7 +2054,10 @@
     },
     {
       "name": "C_EncryptMessageBegin",
-      "version": 3,
+      "version": [
+        3,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1864,7 +2089,10 @@
     },
     {
       "name": "C_EncryptMessageNext",
-      "version": 3,
+      "version": [
+        3,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1911,7 +2139,10 @@
     },
     {
       "name": "C_MessageEncryptFinal",
-      "version": 3,
+      "version": [
+        3,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1923,7 +2154,10 @@
     },
     {
       "name": "C_MessageDecryptInit",
-      "version": 3,
+      "version": [
+        3,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1945,7 +2179,10 @@
     },
     {
       "name": "C_DecryptMessage",
-      "version": 3,
+      "version": [
+        3,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -1997,7 +2234,10 @@
     },
     {
       "name": "C_DecryptMessageBegin",
-      "version": 3,
+      "version": [
+        3,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -2029,7 +2269,10 @@
     },
     {
       "name": "C_DecryptMessageNext",
-      "version": 3,
+      "version": [
+        3,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -2076,7 +2319,10 @@
     },
     {
       "name": "C_MessageDecryptFinal",
-      "version": 3,
+      "version": [
+        3,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -2088,7 +2334,10 @@
     },
     {
       "name": "C_MessageSignInit",
-      "version": 3,
+      "version": [
+        3,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -2110,7 +2359,10 @@
     },
     {
       "name": "C_SignMessage",
-      "version": 3,
+      "version": [
+        3,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -2152,7 +2404,10 @@
     },
     {
       "name": "C_SignMessageBegin",
-      "version": 3,
+      "version": [
+        3,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -2174,7 +2429,10 @@
     },
     {
       "name": "C_SignMessageNext",
-      "version": 3,
+      "version": [
+        3,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -2216,7 +2474,10 @@
     },
     {
       "name": "C_MessageSignFinal",
-      "version": 3,
+      "version": [
+        3,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -2228,7 +2489,10 @@
     },
     {
       "name": "C_MessageVerifyInit",
-      "version": 3,
+      "version": [
+        3,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -2250,7 +2514,10 @@
     },
     {
       "name": "C_VerifyMessage",
-      "version": 3,
+      "version": [
+        3,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -2292,7 +2559,10 @@
     },
     {
       "name": "C_VerifyMessageBegin",
-      "version": 3,
+      "version": [
+        3,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -2314,7 +2584,10 @@
     },
     {
       "name": "C_VerifyMessageNext",
-      "version": 3,
+      "version": [
+        3,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
@@ -2356,13 +2629,436 @@
     },
     {
       "name": "C_MessageVerifyFinal",
-      "version": 3,
+      "version": [
+        3,
+        0
+      ],
       "returns": "CK_RV",
       "arguments": [
         {
           "type": "CK_SESSION_HANDLE",
           "name": "session",
           "ffi-type": "ulong"
+        }
+      ]
+    },
+    {
+      "name": "C_EncapsulateKey",
+      "version": [
+        3,
+        2
+      ],
+      "returns": "CK_RV",
+      "arguments": [
+        {
+          "type": "CK_SESSION_HANDLE",
+          "name": "session",
+          "ffi-type": "ulong"
+        },
+        {
+          "type": "CK_MECHANISM_PTR",
+          "name": "mechanism",
+          "ffi-type": "pointer"
+        },
+        {
+          "type": "CK_OBJECT_HANDLE",
+          "name": "publicKey",
+          "ffi-type": "ulong"
+        },
+        {
+          "type": "CK_ATTRIBUTE_PTR",
+          "name": "pTemplate",
+          "ffi-type": "pointer"
+        },
+        {
+          "type": "long unsigned int",
+          "name": "ulAttributeCount",
+          "ffi-type": "ulong"
+        },
+        {
+          "type": "unsigned char *",
+          "name": "ciphertext",
+          "ffi-type": "pointer"
+        },
+        {
+          "type": "long unsigned int *",
+          "name": "ciphertext_len",
+          "ffi-type": "pointer"
+        },
+        {
+          "type": "CK_OBJECT_HANDLE_PTR",
+          "name": "phKey",
+          "ffi-type": "pointer"
+        }
+      ]
+    },
+    {
+      "name": "C_DecapsulateKey",
+      "version": [
+        3,
+        2
+      ],
+      "returns": "CK_RV",
+      "arguments": [
+        {
+          "type": "CK_SESSION_HANDLE",
+          "name": "session",
+          "ffi-type": "ulong"
+        },
+        {
+          "type": "CK_MECHANISM_PTR",
+          "name": "mechanism",
+          "ffi-type": "pointer"
+        },
+        {
+          "type": "CK_OBJECT_HANDLE",
+          "name": "private_key",
+          "ffi-type": "ulong"
+        },
+        {
+          "type": "CK_ATTRIBUTE_PTR",
+          "name": "pTemplate",
+          "ffi-type": "pointer"
+        },
+        {
+          "type": "long unsigned int",
+          "name": "ulAttributeCount",
+          "ffi-type": "ulong"
+        },
+        {
+          "type": "unsigned char *",
+          "name": "ciphertext",
+          "ffi-type": "pointer"
+        },
+        {
+          "type": "long unsigned int *",
+          "name": "ciphertext_len",
+          "ffi-type": "pointer"
+        },
+        {
+          "type": "CK_OBJECT_HANDLE_PTR",
+          "name": "phKey",
+          "ffi-type": "pointer"
+        }
+      ]
+    },
+    {
+      "name": "C_VerifySignatureInit",
+      "version": [
+        3,
+        2
+      ],
+      "returns": "CK_RV",
+      "arguments": [
+        {
+          "type": "CK_SESSION_HANDLE",
+          "name": "session",
+          "ffi-type": "ulong"
+        },
+        {
+          "type": "CK_MECHANISM_PTR",
+          "name": "mechanism",
+          "ffi-type": "pointer"
+        },
+        {
+          "type": "CK_OBJECT_HANDLE",
+          "name": "hKey",
+          "ffi-type": "ulong"
+        },
+        {
+          "type": "unsigned char *",
+          "name": "signature",
+          "ffi-type": "pointer"
+        },
+        {
+          "type": "long unsigned int",
+          "name": "signature_len",
+          "ffi-type": "ulong"
+        }
+      ]
+    },
+    {
+      "name": "C_VerifySignature",
+      "version": [
+        3,
+        2
+      ],
+      "returns": "CK_RV",
+      "arguments": [
+        {
+          "type": "CK_SESSION_HANDLE",
+          "name": "session",
+          "ffi-type": "ulong"
+        },
+        {
+          "type": "unsigned char *",
+          "name": "data",
+          "ffi-type": "pointer"
+        },
+        {
+          "type": "long unsigned int",
+          "name": "ulDataLen",
+          "ffi-type": "ulong"
+        }
+      ]
+    },
+    {
+      "name": "C_VerifySignatureUpdate",
+      "version": [
+        3,
+        2
+      ],
+      "returns": "CK_RV",
+      "arguments": [
+        {
+          "type": "CK_SESSION_HANDLE",
+          "name": "session",
+          "ffi-type": "ulong"
+        },
+        {
+          "type": "unsigned char *",
+          "name": "part",
+          "ffi-type": "pointer"
+        },
+        {
+          "type": "long unsigned int",
+          "name": "part_len",
+          "ffi-type": "ulong"
+        }
+      ]
+    },
+    {
+      "name": "C_VerifySignatureFinal",
+      "version": [
+        3,
+        2
+      ],
+      "returns": "CK_RV",
+      "arguments": [
+        {
+          "type": "CK_SESSION_HANDLE",
+          "name": "session",
+          "ffi-type": "ulong"
+        }
+      ]
+    },
+    {
+      "name": "C_GetSessionValidationFlags",
+      "version": [
+        3,
+        2
+      ],
+      "returns": "CK_RV",
+      "arguments": [
+        {
+          "type": "CK_SESSION_HANDLE",
+          "name": "session",
+          "ffi-type": "ulong"
+        },
+        {
+          "type": "CK_SESSION_VALIDATION_FLAGS_TYPE",
+          "name": "type",
+          "ffi-type": "ulong"
+        },
+        {
+          "type": "CK_FLAGS *",
+          "name": "flags_ptr",
+          "ffi-type": "pointer"
+        }
+      ]
+    },
+    {
+      "name": "C_AsyncComplete",
+      "version": [
+        3,
+        2
+      ],
+      "returns": "CK_RV",
+      "arguments": [
+        {
+          "type": "CK_SESSION_HANDLE",
+          "name": "session",
+          "ffi-type": "ulong"
+        },
+        {
+          "type": "unsigned char *",
+          "name": "function_name",
+          "ffi-type": "pointer"
+        },
+        {
+          "type": "CK_ASYNC_DATA_PTR",
+          "name": "result",
+          "ffi-type": "pointer"
+        }
+      ]
+    },
+    {
+      "name": "C_AsyncGetID",
+      "version": [
+        3,
+        2
+      ],
+      "returns": "CK_RV",
+      "arguments": [
+        {
+          "type": "CK_SESSION_HANDLE",
+          "name": "session",
+          "ffi-type": "ulong"
+        },
+        {
+          "type": "unsigned char *",
+          "name": "function_name",
+          "ffi-type": "pointer"
+        },
+        {
+          "type": "long unsigned int *",
+          "name": "id_ptr",
+          "ffi-type": "pointer"
+        }
+      ]
+    },
+    {
+      "name": "C_AsyncJoin",
+      "version": [
+        3,
+        2
+      ],
+      "returns": "CK_RV",
+      "arguments": [
+        {
+          "type": "CK_SESSION_HANDLE",
+          "name": "session",
+          "ffi-type": "ulong"
+        },
+        {
+          "type": "unsigned char *",
+          "name": "function_name",
+          "ffi-type": "pointer"
+        },
+        {
+          "type": "long unsigned int",
+          "name": "id",
+          "ffi-type": "ulong"
+        },
+        {
+          "type": "unsigned char *",
+          "name": "data",
+          "ffi-type": "pointer"
+        },
+        {
+          "type": "long unsigned int",
+          "name": "ulDataLen",
+          "ffi-type": "ulong"
+        }
+      ]
+    },
+    {
+      "name": "C_WrapKeyAuthenticated",
+      "version": [
+        3,
+        2
+      ],
+      "returns": "CK_RV",
+      "arguments": [
+        {
+          "type": "CK_SESSION_HANDLE",
+          "name": "session",
+          "ffi-type": "ulong"
+        },
+        {
+          "type": "CK_MECHANISM_PTR",
+          "name": "mechanism",
+          "ffi-type": "pointer"
+        },
+        {
+          "type": "CK_OBJECT_HANDLE",
+          "name": "wrapping_key",
+          "ffi-type": "ulong"
+        },
+        {
+          "type": "CK_OBJECT_HANDLE",
+          "name": "hKey",
+          "ffi-type": "ulong"
+        },
+        {
+          "type": "unsigned char *",
+          "name": "associated_data",
+          "ffi-type": "pointer"
+        },
+        {
+          "type": "long unsigned int",
+          "name": "associated_data_len",
+          "ffi-type": "ulong"
+        },
+        {
+          "type": "unsigned char *",
+          "name": "wrapped_key",
+          "ffi-type": "pointer"
+        },
+        {
+          "type": "long unsigned int *",
+          "name": "wrapped_key_len",
+          "ffi-type": "pointer"
+        }
+      ]
+    },
+    {
+      "name": "C_UnwrapKeyAuthenticated",
+      "version": [
+        3,
+        2
+      ],
+      "returns": "CK_RV",
+      "arguments": [
+        {
+          "type": "CK_SESSION_HANDLE",
+          "name": "session",
+          "ffi-type": "ulong"
+        },
+        {
+          "type": "CK_MECHANISM_PTR",
+          "name": "mechanism",
+          "ffi-type": "pointer"
+        },
+        {
+          "type": "CK_OBJECT_HANDLE",
+          "name": "unwrapping_key",
+          "ffi-type": "ulong"
+        },
+        {
+          "type": "unsigned char *",
+          "name": "wrapped_key",
+          "ffi-type": "pointer"
+        },
+        {
+          "type": "long unsigned int",
+          "name": "wrapped_key_len",
+          "ffi-type": "ulong"
+        },
+        {
+          "type": "CK_ATTRIBUTE_PTR",
+          "name": "pTemplate",
+          "ffi-type": "pointer"
+        },
+        {
+          "type": "long unsigned int",
+          "name": "ulAttributeCount",
+          "ffi-type": "ulong"
+        },
+        {
+          "type": "unsigned char *",
+          "name": "associated_data",
+          "ffi-type": "pointer"
+        },
+        {
+          "type": "long unsigned int",
+          "name": "associated_data_len",
+          "ffi-type": "ulong"
+        },
+        {
+          "type": "CK_OBJECT_HANDLE_PTR",
+          "name": "phKey",
+          "ffi-type": "pointer"
         }
       ]
     }
@@ -2766,6 +3462,31 @@
       ]
     },
     {
+      "name": "CK_ASYNC_DATA",
+      "members": [
+        {
+          "name": "ulVersion",
+          "type": "long unsigned int"
+        },
+        {
+          "name": "pValue",
+          "type": "unsigned char *"
+        },
+        {
+          "name": "ulValueLen",
+          "type": "long unsigned int"
+        },
+        {
+          "name": "hObject",
+          "type": "CK_OBJECT_HANDLE"
+        },
+        {
+          "name": "hAdditionalObject",
+          "type": "CK_OBJECT_HANDLE"
+        }
+      ]
+    },
+    {
       "name": "CK_CAMELLIA_CBC_ENCRYPT_DATA_PARAMS",
       "members": [
         {
@@ -2845,6 +3566,43 @@
         },
         {
           "name": "aad",
+          "type": "unsigned char *"
+        },
+        {
+          "name": "ulAADLen",
+          "type": "long unsigned int"
+        },
+        {
+          "name": "ulMACLen",
+          "type": "long unsigned int"
+        }
+      ]
+    },
+    {
+      "name": "CK_CCM_WRAP_PARAMS",
+      "members": [
+        {
+          "name": "ulDataLen",
+          "type": "long unsigned int"
+        },
+        {
+          "name": "pNonce",
+          "type": "unsigned char *"
+        },
+        {
+          "name": "ulNonceLen",
+          "type": "long unsigned int"
+        },
+        {
+          "name": "ulNonceFixedBits",
+          "type": "long unsigned int"
+        },
+        {
+          "name": "nonceGenerator",
+          "type": "CK_GENERATOR_FUNCTION"
+        },
+        {
+          "name": "pAAD",
           "type": "unsigned char *"
         },
         {
@@ -3161,6 +3919,39 @@
       ]
     },
     {
+      "name": "CK_GCM_WRAP_PARAMS",
+      "members": [
+        {
+          "name": "pIv",
+          "type": "unsigned char *"
+        },
+        {
+          "name": "ulIvLen",
+          "type": "long unsigned int"
+        },
+        {
+          "name": "ulIvFixedBits",
+          "type": "long unsigned int"
+        },
+        {
+          "name": "ivGenerator",
+          "type": "CK_GENERATOR_FUNCTION"
+        },
+        {
+          "name": "pAAD",
+          "type": "unsigned char *"
+        },
+        {
+          "name": "ulAADLen",
+          "type": "long unsigned int"
+        },
+        {
+          "name": "ulTagBits",
+          "type": "long unsigned int"
+        }
+      ]
+    },
+    {
       "name": "CK_GOSTR3410_DERIVE_PARAMS",
       "members": [
         {
@@ -3207,6 +3998,27 @@
         {
           "name": "hKey",
           "type": "CK_OBJECT_HANDLE"
+        }
+      ]
+    },
+    {
+      "name": "CK_HASH_SIGN_ADDITIONAL_CONTEXT",
+      "members": [
+        {
+          "name": "hedgeVariant",
+          "type": "CK_HEDGE_TYPE"
+        },
+        {
+          "name": "pContext",
+          "type": "unsigned char *"
+        },
+        {
+          "name": "ulContextLen",
+          "type": "long unsigned int"
+        },
+        {
+          "name": "hash",
+          "type": "CK_MECHANISM_TYPE"
         }
       ]
     },
@@ -3707,6 +4519,23 @@
       ]
     },
     {
+      "name": "CK_SIGN_ADDITIONAL_CONTEXT",
+      "members": [
+        {
+          "name": "hedgeVariant",
+          "type": "CK_HEDGE_TYPE"
+        },
+        {
+          "name": "pContext",
+          "type": "unsigned char *"
+        },
+        {
+          "name": "ulContextLen",
+          "type": "long unsigned int"
+        }
+      ]
+    },
+    {
       "name": "CK_SKIPJACK_PRIVATE_WRAP_PARAMS",
       "members": [
         {
@@ -3876,6 +4705,27 @@
         {
           "name": "pAdditionalDerivedKeys",
           "type": "CK_DERIVED_KEY_PTR"
+        }
+      ]
+    },
+    {
+      "name": "CK_TLS12_EXTENDED_MASTER_KEY_DERIVE_PARAMS",
+      "members": [
+        {
+          "name": "prfHashMechanism",
+          "type": "CK_MECHANISM_TYPE"
+        },
+        {
+          "name": "pSessionHash",
+          "type": "unsigned char *"
+        },
+        {
+          "name": "ulSessionHashLen",
+          "type": "long unsigned int"
+        },
+        {
+          "name": "pVersion",
+          "type": "CK_VERSION_PTR"
         }
       ]
     },
@@ -5285,6 +6135,431 @@
         {
           "name": "C_MessageVerifyFinal",
           "type": "CK_C_MessageVerifyFinal"
+        }
+      ]
+    },
+    {
+      "name": "CK_FUNCTION_LIST_3_2",
+      "members": [
+        {
+          "name": "version",
+          "type": "CK_VERSION"
+        },
+        {
+          "name": "C_Initialize",
+          "type": "CK_C_Initialize"
+        },
+        {
+          "name": "C_Finalize",
+          "type": "CK_C_Finalize"
+        },
+        {
+          "name": "C_GetInfo",
+          "type": "CK_C_GetInfo"
+        },
+        {
+          "name": "C_GetFunctionList",
+          "type": "CK_C_GetFunctionList"
+        },
+        {
+          "name": "C_GetSlotList",
+          "type": "CK_C_GetSlotList"
+        },
+        {
+          "name": "C_GetSlotInfo",
+          "type": "CK_C_GetSlotInfo"
+        },
+        {
+          "name": "C_GetTokenInfo",
+          "type": "CK_C_GetTokenInfo"
+        },
+        {
+          "name": "C_GetMechanismList",
+          "type": "CK_C_GetMechanismList"
+        },
+        {
+          "name": "C_GetMechanismInfo",
+          "type": "CK_C_GetMechanismInfo"
+        },
+        {
+          "name": "C_InitToken",
+          "type": "CK_C_InitToken"
+        },
+        {
+          "name": "C_InitPIN",
+          "type": "CK_C_InitPIN"
+        },
+        {
+          "name": "C_SetPIN",
+          "type": "CK_C_SetPIN"
+        },
+        {
+          "name": "C_OpenSession",
+          "type": "CK_C_OpenSession"
+        },
+        {
+          "name": "C_CloseSession",
+          "type": "CK_C_CloseSession"
+        },
+        {
+          "name": "C_CloseAllSessions",
+          "type": "CK_C_CloseAllSessions"
+        },
+        {
+          "name": "C_GetSessionInfo",
+          "type": "CK_C_GetSessionInfo"
+        },
+        {
+          "name": "C_GetOperationState",
+          "type": "CK_C_GetOperationState"
+        },
+        {
+          "name": "C_SetOperationState",
+          "type": "CK_C_SetOperationState"
+        },
+        {
+          "name": "C_Login",
+          "type": "CK_C_Login"
+        },
+        {
+          "name": "C_Logout",
+          "type": "CK_C_Logout"
+        },
+        {
+          "name": "C_CreateObject",
+          "type": "CK_C_CreateObject"
+        },
+        {
+          "name": "C_CopyObject",
+          "type": "CK_C_CopyObject"
+        },
+        {
+          "name": "C_DestroyObject",
+          "type": "CK_C_DestroyObject"
+        },
+        {
+          "name": "C_GetObjectSize",
+          "type": "CK_C_GetObjectSize"
+        },
+        {
+          "name": "C_GetAttributeValue",
+          "type": "CK_C_GetAttributeValue"
+        },
+        {
+          "name": "C_SetAttributeValue",
+          "type": "CK_C_SetAttributeValue"
+        },
+        {
+          "name": "C_FindObjectsInit",
+          "type": "CK_C_FindObjectsInit"
+        },
+        {
+          "name": "C_FindObjects",
+          "type": "CK_C_FindObjects"
+        },
+        {
+          "name": "C_FindObjectsFinal",
+          "type": "CK_C_FindObjectsFinal"
+        },
+        {
+          "name": "C_EncryptInit",
+          "type": "CK_C_EncryptInit"
+        },
+        {
+          "name": "C_Encrypt",
+          "type": "CK_C_Encrypt"
+        },
+        {
+          "name": "C_EncryptUpdate",
+          "type": "CK_C_EncryptUpdate"
+        },
+        {
+          "name": "C_EncryptFinal",
+          "type": "CK_C_EncryptFinal"
+        },
+        {
+          "name": "C_DecryptInit",
+          "type": "CK_C_DecryptInit"
+        },
+        {
+          "name": "C_Decrypt",
+          "type": "CK_C_Decrypt"
+        },
+        {
+          "name": "C_DecryptUpdate",
+          "type": "CK_C_DecryptUpdate"
+        },
+        {
+          "name": "C_DecryptFinal",
+          "type": "CK_C_DecryptFinal"
+        },
+        {
+          "name": "C_DigestInit",
+          "type": "CK_C_DigestInit"
+        },
+        {
+          "name": "C_Digest",
+          "type": "CK_C_Digest"
+        },
+        {
+          "name": "C_DigestUpdate",
+          "type": "CK_C_DigestUpdate"
+        },
+        {
+          "name": "C_DigestKey",
+          "type": "CK_C_DigestKey"
+        },
+        {
+          "name": "C_DigestFinal",
+          "type": "CK_C_DigestFinal"
+        },
+        {
+          "name": "C_SignInit",
+          "type": "CK_C_SignInit"
+        },
+        {
+          "name": "C_Sign",
+          "type": "CK_C_Sign"
+        },
+        {
+          "name": "C_SignUpdate",
+          "type": "CK_C_SignUpdate"
+        },
+        {
+          "name": "C_SignFinal",
+          "type": "CK_C_SignFinal"
+        },
+        {
+          "name": "C_SignRecoverInit",
+          "type": "CK_C_SignRecoverInit"
+        },
+        {
+          "name": "C_SignRecover",
+          "type": "CK_C_SignRecover"
+        },
+        {
+          "name": "C_VerifyInit",
+          "type": "CK_C_VerifyInit"
+        },
+        {
+          "name": "C_Verify",
+          "type": "CK_C_Verify"
+        },
+        {
+          "name": "C_VerifyUpdate",
+          "type": "CK_C_VerifyUpdate"
+        },
+        {
+          "name": "C_VerifyFinal",
+          "type": "CK_C_VerifyFinal"
+        },
+        {
+          "name": "C_VerifyRecoverInit",
+          "type": "CK_C_VerifyRecoverInit"
+        },
+        {
+          "name": "C_VerifyRecover",
+          "type": "CK_C_VerifyRecover"
+        },
+        {
+          "name": "C_DigestEncryptUpdate",
+          "type": "CK_C_DigestEncryptUpdate"
+        },
+        {
+          "name": "C_DecryptDigestUpdate",
+          "type": "CK_C_DecryptDigestUpdate"
+        },
+        {
+          "name": "C_SignEncryptUpdate",
+          "type": "CK_C_SignEncryptUpdate"
+        },
+        {
+          "name": "C_DecryptVerifyUpdate",
+          "type": "CK_C_DecryptVerifyUpdate"
+        },
+        {
+          "name": "C_GenerateKey",
+          "type": "CK_C_GenerateKey"
+        },
+        {
+          "name": "C_GenerateKeyPair",
+          "type": "CK_C_GenerateKeyPair"
+        },
+        {
+          "name": "C_WrapKey",
+          "type": "CK_C_WrapKey"
+        },
+        {
+          "name": "C_UnwrapKey",
+          "type": "CK_C_UnwrapKey"
+        },
+        {
+          "name": "C_DeriveKey",
+          "type": "CK_C_DeriveKey"
+        },
+        {
+          "name": "C_SeedRandom",
+          "type": "CK_C_SeedRandom"
+        },
+        {
+          "name": "C_GenerateRandom",
+          "type": "CK_C_GenerateRandom"
+        },
+        {
+          "name": "C_GetFunctionStatus",
+          "type": "CK_C_GetFunctionStatus"
+        },
+        {
+          "name": "C_CancelFunction",
+          "type": "CK_C_CancelFunction"
+        },
+        {
+          "name": "C_WaitForSlotEvent",
+          "type": "CK_C_WaitForSlotEvent"
+        },
+        {
+          "name": "C_GetInterfaceList",
+          "type": "CK_C_GetInterfaceList"
+        },
+        {
+          "name": "C_GetInterface",
+          "type": "CK_C_GetInterface"
+        },
+        {
+          "name": "C_LoginUser",
+          "type": "CK_C_LoginUser"
+        },
+        {
+          "name": "C_SessionCancel",
+          "type": "CK_C_SessionCancel"
+        },
+        {
+          "name": "C_MessageEncryptInit",
+          "type": "CK_C_MessageEncryptInit"
+        },
+        {
+          "name": "C_EncryptMessage",
+          "type": "CK_C_EncryptMessage"
+        },
+        {
+          "name": "C_EncryptMessageBegin",
+          "type": "CK_C_EncryptMessageBegin"
+        },
+        {
+          "name": "C_EncryptMessageNext",
+          "type": "CK_C_EncryptMessageNext"
+        },
+        {
+          "name": "C_MessageEncryptFinal",
+          "type": "CK_C_MessageEncryptFinal"
+        },
+        {
+          "name": "C_MessageDecryptInit",
+          "type": "CK_C_MessageDecryptInit"
+        },
+        {
+          "name": "C_DecryptMessage",
+          "type": "CK_C_DecryptMessage"
+        },
+        {
+          "name": "C_DecryptMessageBegin",
+          "type": "CK_C_DecryptMessageBegin"
+        },
+        {
+          "name": "C_DecryptMessageNext",
+          "type": "CK_C_DecryptMessageNext"
+        },
+        {
+          "name": "C_MessageDecryptFinal",
+          "type": "CK_C_MessageDecryptFinal"
+        },
+        {
+          "name": "C_MessageSignInit",
+          "type": "CK_C_MessageSignInit"
+        },
+        {
+          "name": "C_SignMessage",
+          "type": "CK_C_SignMessage"
+        },
+        {
+          "name": "C_SignMessageBegin",
+          "type": "CK_C_SignMessageBegin"
+        },
+        {
+          "name": "C_SignMessageNext",
+          "type": "CK_C_SignMessageNext"
+        },
+        {
+          "name": "C_MessageSignFinal",
+          "type": "CK_C_MessageSignFinal"
+        },
+        {
+          "name": "C_MessageVerifyInit",
+          "type": "CK_C_MessageVerifyInit"
+        },
+        {
+          "name": "C_VerifyMessage",
+          "type": "CK_C_VerifyMessage"
+        },
+        {
+          "name": "C_VerifyMessageBegin",
+          "type": "CK_C_VerifyMessageBegin"
+        },
+        {
+          "name": "C_VerifyMessageNext",
+          "type": "CK_C_VerifyMessageNext"
+        },
+        {
+          "name": "C_MessageVerifyFinal",
+          "type": "CK_C_MessageVerifyFinal"
+        },
+        {
+          "name": "C_EncapsulateKey",
+          "type": "CK_C_EncapsulateKey"
+        },
+        {
+          "name": "C_DecapsulateKey",
+          "type": "CK_C_DecapsulateKey"
+        },
+        {
+          "name": "C_VerifySignatureInit",
+          "type": "CK_C_VerifySignatureInit"
+        },
+        {
+          "name": "C_VerifySignature",
+          "type": "CK_C_VerifySignature"
+        },
+        {
+          "name": "C_VerifySignatureUpdate",
+          "type": "CK_C_VerifySignatureUpdate"
+        },
+        {
+          "name": "C_VerifySignatureFinal",
+          "type": "CK_C_VerifySignatureFinal"
+        },
+        {
+          "name": "C_GetSessionValidationFlags",
+          "type": "CK_C_GetSessionValidationFlags"
+        },
+        {
+          "name": "C_AsyncComplete",
+          "type": "CK_C_AsyncComplete"
+        },
+        {
+          "name": "C_AsyncGetID",
+          "type": "CK_C_AsyncGetID"
+        },
+        {
+          "name": "C_AsyncJoin",
+          "type": "CK_C_AsyncJoin"
+        },
+        {
+          "name": "C_WrapKeyAuthenticated",
+          "type": "CK_C_WrapKeyAuthenticated"
+        },
+        {
+          "name": "C_UnwrapKeyAuthenticated",
+          "type": "CK_C_UnwrapKeyAuthenticated"
         }
       ]
     }
