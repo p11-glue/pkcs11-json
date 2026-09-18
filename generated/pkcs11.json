@@ -2731,9 +2731,9 @@
           "ffi-type": "pointer"
         },
         {
-          "type": "long unsigned int *",
+          "type": "long unsigned int",
           "name": "ciphertext_len",
-          "ffi-type": "pointer"
+          "ffi-type": "ulong"
         },
         {
           "type": "CK_OBJECT_HANDLE_PTR",
