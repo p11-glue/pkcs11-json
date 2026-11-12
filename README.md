@@ -41,7 +41,8 @@ In `configure.ac`, check for Python and the `castxml` program:
 
 ```autoconf
 AM_PATH_PYTHON([3.6],, [:])
-AM_MISSING_PROG([CASTXML], [castxml])
+AC_PATH_PROG([CASTXML], [castxml])
+AM_CONDITIONAL([HAVE_CASTXML], [test -n "$CASTXML"])
 ```
 
 In `Makefile.am`, set `PKCS11_JSON_INPUT` to a path to "pkcs11.h", and include `pkcs11-json/Makefile.am`:
